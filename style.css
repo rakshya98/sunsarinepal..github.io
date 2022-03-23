@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+
+
+
+/*Our Courses*/
+.bg-gray{
+  background-color: #f3f3f3;
+  padding:25px 0;
+}
+.courses-list .course-card{
+  width:28%;
+  box-shadow: 0 0 6px 7px #dfdfdf;
+  
+}
+.course-card{
+  box-shadow:0 0 6px 7px #dfdfdf;
+  margin:0 15px;
+  border-radius:10px;
+  height:100%;
+  overflow:hidden;
+}
+.courses-list .course-card .course-image{
+  width:100%;
+  
+}
+.courses-list .course-card .course-detail{
+  padding:10px;
+}
+.courses-list .course-card figure{
+  border-bottom:1 px solid #7f7f7f;
+  max-height:130px;
+  overflow:hidden;
+}
+
+
+/*Media Responsive*/
+@media only screen and (max-width:1199px){
+  .courses-list .course-card{
+      width:38%
+  }
+}
+@media only screen and (max-width:768px){
+  .courses-list .course-card{
+      width:49%
+  
+  }
+}
+@media only screen and (max-width:576px){
+  .courses-list .course-card{
+      width:100%
+  }
+}
+.w-100-mobile{
+  width:100%;
+}
